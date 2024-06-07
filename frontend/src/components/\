@@ -1,0 +1,22 @@
+import {Link} from 'react-router-dom';
+import Github from '../assets/github.svg';
+
+const Footer = () => {
+	return (
+		<footer className="py-2 flex items-center justify-between text-sm bg-[#0A0E0D]">
+			<div>
+				<span className="text-gray-600">
+					Akshat Gangi - &copy; All Rights Reserved
+				</span>
+			</div>
+			<div className="">
+				<Link to={'/'}><img src={Github} /></Link>
+				<Link to={'/'}></Link>	
+				<Link to={'/'}></Link>
+					
+			</div>
+		</footer>
+	)
+}
+
+export default Footer;
